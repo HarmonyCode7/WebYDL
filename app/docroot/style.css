@@ -1,0 +1,101 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.otf'),
+        url('Gilroy-ExtraBold.otf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-size: 16px;
+    background: #eff8fc;
+}
+.wrapper {
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+.main {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main hgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+.main hgroup img {
+    width: 20vw;
+    min-width: 71px;
+    max-width: 181.20000000000002px;
+}
+
+.main .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    max-width: 779px;
+    /* border: .1rem solid red; */
+}
+
+.form .input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.input-container input, 
+.input-container select,
+.input-container button
+{
+    padding: 1rem;
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: .3rem;
+    outline: none;
+    font-size: 1.2rem;
+    color: #666565;
+}
+
+.input-container button {
+    background: #4ad7b1;
+    color: white;
+}
+#media {
+    font-size: 1rem;
+}
+option {
+    font-size: 1rem;
+}
+
+label {
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 1.4rem;
+	}
+	input , select , button {
+		padding: 2rem;
+	}
+}

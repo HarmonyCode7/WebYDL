@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <message id="app-template">
+        <div class="wrapper">
+            <div class="main">
+                <hgroup>
+                    <img src="images/youtube-download.svg" alt="" width="20%" />
+                    <p class="title">YDL Web Ui</p>
+                </hgroup>
+    
+                <div class="form">
+                    <div class="input-container">
+                        <label for="url">URL</label>
+                        ${url_input}
+                    </div>
+                    <div class="input-container">
+                        <label for="media-type">Convert To</label>
+                        ${media_select}
+                    </div>
+    
+                    <div class="input-container">
+                        <label for="filename">Save as</label>
+                        ${filename_input}
+                    </div>
+                    <div class="input-container">
+                        ${download_button}
+                    </div>
+    
+                    <div class="download-output">
+                        <p>${result}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </message>
+</messages>
